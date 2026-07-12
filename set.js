@@ -9,12 +9,7 @@ function toBool(value, fallback = false) {
     return String(value).toLowerCase() === "true";
 }
 
-// --- Facebook credentials ---------------------------------------------------
-// Preferred: APPSTATE — your appState.json cookies, gzip-compressed and
-// base64-encoded into a single line. Use tools/encode-appstate.js to
-// generate this value from an existing appState.json.
-// Fallback: FB_EMAIL + FB_PASSWORD, used only if APPSTATE is empty/invalid
-// (ws3-fca supports logging in directly with credentials).
+
 const appstate = process.env.APPSTATE || "";
 const email = process.env.FB_EMAIL || "";
 const password = process.env.FB_PASSWORD || "";
@@ -22,23 +17,17 @@ const password = process.env.FB_PASSWORD || "";
 const authDir = path.join(__dirname, "auth");
 const appstatePath = path.join(authDir, "appstate.json");
 
-// NOTE ON "SAFETY": gzip + base64 is compression/encoding, not encryption.
-// It keeps the raw cookie JSON out of plain sight in set.env and makes it
-// easy to paste as one line, but anyone who reads the APPSTATE value can
-// decode it just as easily as this function does. Treat it like a password
-// — don't commit set.env, and use auth/ (gitignored) for the decoded file.
 function loadAppstate() {
     try {
-        // Always start clean so a stale file from a previous run/account is never reused by accident.
+      
         if (fs.existsSync(appstatePath)) {
             fs.unlinkSync(appstatePath);
         }
 
         if (!appstate || typeof appstate !== "string") {
-            return null; // nothing to load — caller falls back to email/password
+            return null; 
         }
 
-        // Tolerate a "data:...;base64,XXXX" style prefix as well as a raw base64 string.
         const cleanB64 = appstate.includes(",") ? appstate.split(",").pop().trim() : appstate.trim();
 
         const compressedData = Buffer.from(cleanB64, "base64");
@@ -79,9 +68,7 @@ module.exports = {
         online: toBool(process.env.ONLINE, true),
     },
 
-    // Exactly one of these will actually be usable at runtime — index.js picks
-    // appState if present, otherwise falls back to email/password.
-    appState: loadedAppState, // array of cookies, or null
+    appState: loadedAppState, 
     email,
     password,
 };
