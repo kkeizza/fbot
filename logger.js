@@ -1,7 +1,3 @@
-// Lightweight structured logger for console output.
-// KeithLogger.logMessage(event) is the one you'll care about most — it prints
-// message type, thread/sender/message IDs, whether it's a group, and a body
-// preview for every incoming Messenger event, in one line.
 
 const colors = {
     reset: "\x1b[0m",
@@ -35,7 +31,8 @@ const KeithLogger = {
         console.log(`${colors.blue}${text}${colors.reset}`);
     },
 
-    // Every incoming event goes through here (message, reactions, presence, thread events, etc.)
+    
+    
     logEvent(event) {
         const chatType = event.isGroup ? `${colors.yellow}GROUP${colors.reset}` : `${colors.cyan}DM${colors.reset}`;
 
@@ -58,7 +55,9 @@ const KeithLogger = {
             return;
         }
 
-        // Non-message events: reactions, typing, read receipts, thread name changes, etc.
+        
+
+        
         console.log(
             `${colors.magenta}[EVT]${colors.reset} ${colors.dim}${timestamp()}${colors.reset} ` +
             `${chatType} ` +
