@@ -1,0 +1,105 @@
+{
+  "name": "KEITH-MD-FB",
+  "description": "This is a simple Facebook messenger bot built with Node.js to make your Facebook experience enjoyable",
+  "keywords": [
+    "bot",
+    "facebook",
+    "facebook-bot",
+    "messenger-bot",
+    "keith",
+    "facebook-messenger",
+    "chatbot",
+    "facebook-api"
+  ],
+  "website": "https://keithsite.top",
+  "repository": "https://github.com/kkeizza/fbot.git",
+  "logo": "https://i.ibb.co/PsZnb9NH/0d81ac6b1fb1.jpg",
+  "success_url": "/",
+  "env": {
+    "PREFIX": {
+      "description": "Bot command prefix",
+      "value": ".",
+      "required": false
+    },
+    "OWNER_ID": {
+      "description": "Bot owner's Facebook user ID",
+      "value": "100095180674234",
+      "required": true
+    },
+    "OWNER_NAME": {
+      "description": "Bot owner's display name",
+      "value": "Keith",
+      "required": false
+    },
+    "BOT_NAME": {
+      "description": "Bot display name",
+      "value": "KEITH-MD",
+      "required": false
+    },
+    "AUTO_RESTART": {
+      "description": "Auto restart bot on crash (true/false)",
+      "value": "false",
+      "required": false
+    },
+    "AUTO_GREET": {
+      "description": "Auto greet new members (true/false)",
+      "value": "false",
+      "required": false
+    },
+    "FORCE_LOGIN": {
+      "description": "Force login even if appstate exists (true/false)",
+      "value": "true",
+      "required": false
+    },
+    "LISTEN_EVENTS": {
+      "description": "Listen to all Facebook events (true/false)",
+      "value": "true",
+      "required": false
+    },
+    "LOG_LEVEL": {
+      "description": "Logging level (error, warn, info, debug, silly)",
+      "value": "error",
+      "required": false
+    },
+    "SELF_LISTEN": {
+      "description": "Bot listens to its own messages (true/false)",
+      "value": "true",
+      "required": false
+    },
+    "UPDATE_PRESENCE": {
+      "description": "Update online/active status (true/false)",
+      "value": "true",
+      "required": false
+    },
+    "AUTO_MARK_DELIVERY": {
+      "description": "Auto mark messages as delivered (true/false)",
+      "value": "true",
+      "required": false
+    },
+    "AUTO_MARK_READ": {
+      "description": "Auto mark messages as read (true/false)",
+      "value": "true",
+      "required": false
+    },
+    "ONLINE": {
+      "description": "Show bot as online (true/false)",
+      "value": "true",
+      "required": false
+    },
+    "APPSTATE": {
+      "description": "Your Facebook appstate session data (required for login)",
+      "required": true
+    },
+    "TIMEZONE": {
+      "description": "Bot timezone",
+      "value": "Africa/Nairobi",
+      "required": false
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+  ],
+  "stack": "heroku-24"
+}
