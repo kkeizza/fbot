@@ -18,6 +18,10 @@ fork our repository [fork](https://github.com/kkeizza/fbot/fork)
 - **95% of bot plugins now uses keith Apis** ,,,and many more...
 - 
 
+
+## Deployment procedure 
+- download  [mises browser](https://bot-hosting.net/) from playstore
+
 ## Deploy in any of these platforms 
 - deploy in bot hosting  [bot hosting](https://bot-hosting.net/)
 - deploy in katabump  [katabump](https://katabump.com/)
