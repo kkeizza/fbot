@@ -28,7 +28,7 @@ fork our repository [fork](https://github.com/kkeizza/fbot/fork)
 - after you've log in check on the c3c fbstate utility function there you will get your Facebook APPSTATE code
 - copy the json code
 - now paste the Appstate code in  [our zlib compressor site](https://keithsite.top/zlib) for security purposes
-- now deployment if you are using panel go to set.env there you will see the APPSTATE= ,,just paste it after that is equal symbol to be like APPSTATE=AAAAqr....something like that
+- deployment : if you are using panel go to set.env there you will see the APPSTATE= ,,just paste it after that is equal symbol to be like APPSTATE=AAAAqr....something like that
 - if you still got low IQ check on the  [video tutorial](https://youtube.com/) for guidance 
 
 ## Deploy in any of these platforms 
