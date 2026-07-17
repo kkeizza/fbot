@@ -20,8 +20,14 @@ fork our repository [fork](https://github.com/kkeizza/fbot/fork)
 
 
 ## Deployment procedure 
-- download  [mises browser](https://bot-hosting.net/) from playstore
-
+- download  [mises browser](https://play.google.com/store/apps/details?id=site.mises.browser_stable) from playstore
+- next go to extension tab or open  [chrome web store](https://chromewebstore.google.com/) in misses browser
+- in the google chrome web store search for c3cFBstate Utility
+- tap add to chrome
+- then now normally login your  [Facebook](https://facebook.com/) in mises browser
+- after you've log in check on the c3c fbstate utility function there you will get your Facebook APPSTATE code
+- copy the json code
+- 
 ## Deploy in any of these platforms 
 - deploy in bot hosting  [bot hosting](https://bot-hosting.net/)
 - deploy in katabump  [katabump](https://katabump.com/)
