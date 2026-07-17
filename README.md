@@ -9,13 +9,13 @@ fork our repository [fork](https://github.com/kkeizza/fbot/fork)
 
 ##  Features
 
-- **Welcome new members** with customizable messages and GIFs
-- **Anti-link protection** to keep groups clean
-- **Remote command system** from GitHub
-- **Auto-updating** configuration
-- **Message statistics** tracking
-- **Command cooldowns**
-- **Admin-only commands**
+- **create story** create Facebook story 
+- **post** can post a media to your account 
+- **can comment** this works by using the messageID or ThreadID 
+- **Messenger theme** can change  chat theme 
+- **follow** you can autofollow by quoting a user in group or chat 
+- **group management** it manages Facebook group perfectly when promoted to admin can add, change group name, welcome messages and many more 
+- **95% of bot plugins now uses keith Apis** ,,,and many more...
 - 
 
 ## Deploy in any of these platforms 
