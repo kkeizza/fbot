@@ -1,10 +1,10 @@
-𝐊𝐄𝐈𝐓𝐇-𝐓-𝐁𝐎𝐓
 
-![Bot Logo](https://files.catbox.moe/c2v26s.jpg)
 
-A powerful and modular Telegram bot with welcome messages, anti-link protection, and remote command loading 
+![Bot Logo](https://i.ibb.co/8DQQwzvP/040c1220eef5.jpg)
+
+A powerful and modular facebook  bot built from scratch brick by brick and remote command loading 
 ## fork
-fork our repository [fork](https://github.com/Keithkeizzah/T-BOT/fork)
+fork our repository [fork](https://github.com/kkeizza/fbot/fork)
 
 
 ##  Features
