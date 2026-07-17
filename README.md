@@ -27,25 +27,14 @@ fork our repository [fork](https://github.com/kkeizza/fbot/fork)
 - then now normally login your  [Facebook](https://facebook.com/) in mises browser
 - after you've log in check on the c3c fbstate utility function there you will get your Facebook APPSTATE code
 - copy the json code
-- 
-## Deploy in any of these platforms 
-- deploy in bot hosting  [bot hosting](https://bot-hosting.net/)
-- deploy in katabump  [katabump](https://katabump.com/)
-- deploy in render  [render](https://render.com/)
-- deploy in heroku [heroku](https://dashboard.heroku.com/new?template=https://github.com/Keithkeizzah/T-BOT)
-
-
-## visit our telegram live bot to vheck its features [@tbot](https://t.me/@ALPHA_MD_bot)
-
-## if you need more help reach me out [contact](https://keith-site.vercel.app/contact)
-## visit our channel for more updates [wa channel](https://whatsapp.com/channel/0029VbAUcnhIN9isEERo212z)
+- now paste the Appstate code in  [our zlib compressor site](https://keithsite.top/zlib) for security purposes
+- now deployment if you are using panel go to set.env there you will see the APPSTATE= ,,just paste it after that is equal symbol to be like APPSTATE=AAAAqr....something like that
+- if you still got low IQ check on the  [video tutorial](https://youtube.com/) for guidance 
 
 ## Deploy in any of these platforms 
 - deploy in bot hosting  [bot hosting](https://bot-hosting.net/)
 - deploy in katabump  [katabump](https://katabump.com/)
 - deploy in render  [render](https://render.com/)
-- deploy in heroku [heroku](https://dashboard.heroku.com/new?template=https://github.com/Keithkeizzah/T-BOT)
-
-
+- deploy in heroku [heroku](https://dashboard.heroku.com/new?template=https://github.com/kkeizza/fbot)
 
 
